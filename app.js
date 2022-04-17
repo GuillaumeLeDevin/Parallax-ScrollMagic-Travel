@@ -7,11 +7,11 @@ var scene = new ScrollMagic.Scene({
 
 })
 .setClassToggle('.box1', 'fade-in')
-.addIndicators({
-    name: 'INDICATIONS',
-    indent: 200,
-    colorStart: '#fff'
-})
+// .addIndicators({
+//     name: 'INDICATIONS',
+//     indent: 200,
+//     colorStart: '#fff'
+// })
 .addTo(controller)
 
 var scene2 = new ScrollMagic.Scene({
